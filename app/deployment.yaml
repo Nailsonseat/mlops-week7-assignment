@@ -15,7 +15,7 @@ spec:
       serviceAccountName: telemetry-access
       containers:
       - name: fastapi-container
-        image: us-central1-docker.pkg.dev/dulcet-bastion-452612-v4/my-repo/demo_log:latest
+        image: us-east1-docker.pkg.dev/iitm-mlops-course/mlops/demo_log:latest
         ports:
         - containerPort: 8200
         readinessProbe:
