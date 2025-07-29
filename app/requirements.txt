@@ -14,7 +14,7 @@ opentelemetry-sdk==1.27.0
 opentelemetry-instrumentation-fastapi==0.46b0  # matches OTEL 1.27
 
 # --- Google Cloud Trace exporter ---
-opentelemetry-exporter-google-cloud==1.7.0b0
+opentelemetry-exporter-google-cloud==1.7.b0
 
 # (Optional) If you later push logs via Cloud Logging’s Python handler
 # google-cloud-logging==3.11.0
