@@ -1,18 +1,19 @@
 # --- Web framework & ASGI server ---
-fastapi==0.111.0
-uvicorn[standard]==0.31.1   # for local dev & container entrypoint
+fastapi
+uvicorn[standard]
 
 # --- Data, model loading & ML runtime ---
-pandas==2.3.1
-scikit-learn==1.5.0
-joblib==1.4.2
-pydantic==2.7.1             # FastAPI ≥0.110 uses Pydantic v2
+pandas
+scikit-learn
+joblib
+pydantic
 
-# --- OpenTelemetry core (stick to 0.46-compatible versions) ---
-opentelemetry-api==1.25.0
-opentelemetry-sdk==1.25.0
-opentelemetry-semantic-conventions==0.46b0
-opentelemetry-instrumentation-fastapi==0.46b0
+# --- OpenTelemetry core ---
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-semantic-conventions
+opentelemetry-instrumentation
+opentelemetry-instrumentation-fastapi
 
-# --- Google Cloud Exporter (0.17b0 works with OTEL ≤1.25) ---
-opentelemetry-exporter-google-cloud==0.17b0
+# --- GCP logging (optional, only if you use Cloud Logging) ---
+# google-cloud-logging
