@@ -8,13 +8,11 @@ scikit-learn==1.5.0
 joblib==1.4.2
 pydantic==2.7.1             # FastAPI ≥0.110 uses Pydantic v2
 
-# --- OpenTelemetry core ---
-opentelemetry-api==1.27.0
-opentelemetry-sdk==1.27.0
-opentelemetry-instrumentation-fastapi==0.46b0  # matches OTEL 1.27
+# --- OpenTelemetry core (stick to 0.46-compatible versions) ---
+opentelemetry-api==1.25.0
+opentelemetry-sdk==1.25.0
+opentelemetry-semantic-conventions==0.46b0
+opentelemetry-instrumentation-fastapi==0.46b0
 
-# --- Google Cloud Trace exporter ---
+# --- Google Cloud Exporter (0.17b0 works with OTEL ≤1.25) ---
 opentelemetry-exporter-google-cloud==0.17b0
-
-# (Optional) If you later push logs via Cloud Logging’s Python handler
-# google-cloud-logging==3.11.0
