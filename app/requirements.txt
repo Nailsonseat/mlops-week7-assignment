@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+scikit-learn
+joblib
+numpy
+pandas
+pydantic
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-instrumentation-fastapi
+opentelemetry-exporter-google-cloud
+opentelemetry-exporter-gcp-trace
