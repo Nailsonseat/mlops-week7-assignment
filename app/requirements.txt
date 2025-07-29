@@ -5,7 +5,7 @@ joblib
 numpy
 pandas
 pydantic
+opentelemetry-api
 opentelemetry-sdk
 opentelemetry-instrumentation-fastapi
-opentelemetry-instrumentation
-opentelemetry-exporter-gcp-trace
+opentelemetry-exporter-google-cloud
