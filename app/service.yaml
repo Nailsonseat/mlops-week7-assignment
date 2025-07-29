@@ -4,7 +4,7 @@ metadata:
   name: log-ml-service 
 spec:
   selector:
-    app: demo-log-ml-service
+    app: log-ml-service
   ports:
     - protocol: TCP
       port: 80
